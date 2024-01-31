@@ -6,6 +6,12 @@
  * 3. After the loop, log out the total number of
  *    hobbies
  */
+let groupHobbies = ['traveling', 'singing', 'shopping', 'cooking']
+for(let index = 0; index < groupHobbies.length; index ++) {     
+console.log('index', index);    
+console.log('Favorite hobby is', groupHobbies[index]);
+}
+console.log('Total number of hobbies is', groupHobbies.length)
 
 
 // Example output
@@ -25,6 +31,15 @@
  * 4. Output the array and number of times teal was found
  */
 
+const colors = ['pink', 'blue', 'red', 'teal', 'black', 'purple', 'teal', 'orange'];
+let tealCount = 0;
+for (let i = 0; i < colors.length; i++) {
+    if (colors[i] === 'teal') {
+        tealCount++;
+    }
+}
+console.log('Array of Colors:', colors);
+console.log('Number of times "teal" was found:', tealCount);
 
 // Example output
 // green, red, teal, orange, teal
@@ -56,7 +71,10 @@
  * 3. Write a loop that adds the opposite value to the toggled array
  * 4. Output both arrays
  */
-
+let arr1 = [true];
+let arr2 = [false];
+let arr3 = [];
+for (let)
 
 // Example output
 // true, false, true, true
@@ -74,7 +92,12 @@
  *
  * Hint: Try using a while loop for this one.
  */
-
+let arr = [3, 0, 2, 8, 0, 0, 0]
+console.log(‘Before loop’, arr);
+for (let index = 0; index < 3; index ++) {
+     arr.pop();
+}
+console.log(‘After loop’, arr);
 
 // Example output
 // Before loop 3, 0, 2, 8, 0, 0, 0
@@ -89,8 +112,10 @@
  * 3. Loop over all numbers in the array keeping track of the highest
       and lowest numbers.
  * 3. Log the highest and lowest number to the console
- */
-
+ */int[] arrint= {2, 2, -3, 7, 4, 1, 7, 12, 8};
+ let high = 12;
+ let low = 3;
+for (i = 0; )
 
 // Example output
 // 2, 2, -3, 7, 4, 1, 7, 12, 8
